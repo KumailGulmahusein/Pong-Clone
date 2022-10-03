@@ -33,6 +33,9 @@ public class EnemyController : MonoBehaviour
         }
 
         //setting the ball's rigidbody to a variable
+        ballRig2D = ball.GetComponent<Rigidbody2D>();
+
+        //checking x direction of the ball
         if (ballRig2D.velocity.x < 0)
         {
             //checking y direction of ball
