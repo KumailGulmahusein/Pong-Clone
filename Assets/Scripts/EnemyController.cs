@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    //speed of th eenemy
+    //speed of th enemy
     public float speed = 1.75F;
-
     //the ball
     Transform ball;
 
@@ -23,7 +22,7 @@ public class EnemyController : MonoBehaviour
         
     }
 
-    //Update is called once per frameh
+    //Update is called once per frame
     void FixedUpdate()
     {
         //finding the ball
